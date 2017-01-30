@@ -1,0 +1,21 @@
+Requirements:
+1. A completed (and working) circuit mounted on a chassis
+2. An Arduino UNO
+3. ATMega328P-PU micro-controller (ATMega328-PU should also work), properly boot-loaded
+4. A flat screw driver used to pop out the chip from the base (or from the Arduino)
+
+Steps:
+1. Install the chip onto the Arduino
+2. Connect the Arduino to your computer
+3. Upload the program to the chip through the Arduino
+4. Disconnect the Arduino from your computer and take out the chip
+5. Install the chip onto your Sumo Bot
+6. Turn it on and observe
+7. If there is any problem (code bugs), modify the code
+8. Take out the chip from the Sumo Bot and re-install it back to the Arduino
+9. Repeat steps 2 to 6 until the Sumo Bot moves correctly (depending your strategy)
+
+To Get Sensor Readings for the Code:
+1. Connect the sensor directly to the Arduino (use 5V and GND on the Arduino as the power source for the sensor)
+2. Write a simple program that uses the Serial Terminal to get the readings from the Analog port (see Embedded Lecture Slides for details)
+3. Record the numbers (e.g. readings from proximity sensor the corresponds to different distance) and use them as reference for the code

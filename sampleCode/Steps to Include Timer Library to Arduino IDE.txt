@@ -1,0 +1,6 @@
+1. Obtain the Timer library folder (within this tutorial or from http://playground.arduino.cc/Code/Timer)
+2. Copy it into <Arduino IDE Installation Path>/library/
+3. Make sure "Timer.cpp" and "Timer.h" is one level within the "Timer" folder (i.e. there is no extra "Timer" folder enclosing the actual contents)
+4. Open Arduino IDE
+5. Confirm that "File -> Examples -> Timer" exists
+6. You're ready to go :)
